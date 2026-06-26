@@ -32,23 +32,25 @@
 - Сравнительный анализ эффективности подходов
 
 ## 📁 Структура проекта
+```
 Rocker-Bogie_Project/
 ├── src/
-│ ├── main.py # Главная точка входа (CLI)
-│ ├── sim/
-│ │ └── sim_runner.py # Общий цикл симуляции
-│ ├── control/
-│ │ ├── pid_controller.py # PID-регулятор
-│ │ ├── constant_torque.py # Постоянный момент на колёсах
-│ │ ├── adaptive_speed.py # Адаптивная скорость
-│ │ └── acceleration_filter.py # Медианная фильтрация ускорения
-│ └── assets/
-│ ├── scene_stairs_logs_modified.xml # Сцена с препятствиями
-│ └── rover_one_side_2d.xml # Модель ровера
-├── pic/ # Скриншоты и диаграммы
-├── .gitignore # Исключаемые файлы
-├── README.md # Описание проекта
-└── requirements.txt # Python-зависимости
+│   ├── main.py                          # Главная точка входа (CLI)
+│   ├── sim/
+│   │   └── sim_runner.py                # Общий цикл симуляции
+│   ├── control/
+│   │   ├── pid_controller.py            # PID-регулятор
+│   │   ├── constant_torque.py           # Постоянный момент на колёсах
+│   │   ├── adaptive_speed.py            # Адаптивная скорость
+│   │   └── acceleration_filter.py       # Медианная фильтрация ускорения
+│   └── assets/
+│       ├── scene_stairs_logs_modified.xml   # Сцена с препятствиями
+│       └── rover_one_side_2d.xml            # Модель ровера
+├── pic/                                 # Скриншоты и диаграммы
+├── .gitignore                           # Исключаемые файлы
+├── README.md                            # Описание проекта
+└── requirements.txt                     # Python-зависимости
+```
 
 ### Назначение модулей
 
